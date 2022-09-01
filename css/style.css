@@ -10,3 +10,25 @@ html{
     font-family: 'Fredoka', sans-serif;
     font-size: 62.5%;
 }
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+/* Section:Title */
+.container section:first-child{
+    text-align: center;
+}
+
+h1{
+    color: #e53170;
+    font-size: 4rem;
+    margin-top: 1em;
+}
+
+section > p{
+    font-size: 1.8rem;
+    margin-top: 2.5em;
+}
