@@ -56,14 +56,14 @@ section > p{
 }
 
 img{
-    height: 100px;
+    height: 104px;
     float: left;
 }
 
 .info{
     float: left;
     color: white;
-    padding: 13px;
+    padding: 11px;
 }
 
 .info h2{
