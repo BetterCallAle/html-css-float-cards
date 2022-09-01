@@ -16,6 +16,10 @@ html{
     margin: 0 auto;
 }
 
+.mb{
+    margin-bottom: 8px;
+}
+
 /* MAIN */
 /* Section: Title */
 .container section:first-child{
@@ -34,12 +38,43 @@ section > p{
 }
 
 /* Section: float */
-/* debug */
+.clearfix::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+
 .card{
-    width: calc(100% / 3 - 3em);
-    height: 100px;
-    margin:5em 3em 0 0;
-    background-color: red;
-    border: 1px solid black;
+    width: calc(100% / 3 - 2.3em);
+    margin:5em 2.3em 0 0;
+    background-color: #0f0e17;
     float: left;
+}
+
+.row:last-child{
+    margin-right: 0;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+.info{
+    float: left;
+    color: white;
+    padding: 13px;
+}
+
+.info h2{
+    font-size: 2rem;
+}
+
+.info p, a{
+    font-size: 1.5rem;
+}
+
+a{
+    color:#17ccf2;
+    text-decoration: none;
 }
