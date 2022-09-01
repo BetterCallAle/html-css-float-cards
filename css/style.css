@@ -17,7 +17,7 @@ html{
 }
 
 /* MAIN */
-/* Section:Title */
+/* Section: Title */
 .container section:first-child{
     text-align: center;
 }
@@ -31,4 +31,15 @@ h1{
 section > p{
     font-size: 1.8rem;
     margin-top: 2.5em;
+}
+
+/* Section: float */
+/* debug */
+.card{
+    width: calc(100% / 3 - 3em);
+    height: 100px;
+    margin:5em 3em 0 0;
+    background-color: red;
+    border: 1px solid black;
+    float: left;
 }
