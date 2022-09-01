@@ -51,7 +51,7 @@ section > p{
     float: left;
 }
 
-.row:last-child{
+.row .card:nth-child(3n+3){
     margin-right: 0;
 }
 
